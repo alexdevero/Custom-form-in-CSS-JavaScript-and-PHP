@@ -6,16 +6,19 @@ $radius: 4px;
 %transition {transition: all .25s;}
 
 /*=Typography=*/
-body {font: 16px 'Open sans', sans-serif;}
+body,
 input,
-button {font: 1em 'Open sans';}
+button {font-family: 'Open sans', sans-serif;}
+body {font-size: 16px;}
+input,
+button {font-size: 1em;}
 
 /*=Layout=*/
 body {background: #3498DB;}
 *,
 *:before,
 *:after {box-sizing: border-box;}
-.hidden {display: none;}
+.js-hidden {display: none;}
 /*=Form=*/
 form {
   margin: 1em auto;
